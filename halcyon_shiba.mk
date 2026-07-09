@@ -7,6 +7,8 @@
 # Inherit some common stuff
 $(call inherit-product, vendor/halcyon/config/common.mk)
 
+TARGET_IS_PIXEL_TENSOR := true
+
 # Inherit device configuration
 DEVICE_CODENAME := shiba
 DEVICE_PATH := device/google/shusky
